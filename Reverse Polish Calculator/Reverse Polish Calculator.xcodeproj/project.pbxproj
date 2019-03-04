@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF6546D1BEA5CBA00C1B493 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6546C1BEA5CBA00C1B493 /* main.cpp */; };
+		1DF654751BEA842800C1B493 /* Rational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF654741BEA842800C1B493 /* Rational.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DF654671BEA5CBA00C1B493 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DF654691BEA5CBA00C1B493 /* Reverse Polish Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse Polish Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF6546C1BEA5CBA00C1B493 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DF654731BEA83B300C1B493 /* Rational.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rational.h; sourceTree = "<group>"; };
+		1DF654741BEA842800C1B493 /* Rational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rational.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF654661BEA5CBA00C1B493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF654601BEA5CBA00C1B493 = {
+			isa = PBXGroup;
+			children = (
+				1DF6546B1BEA5CBA00C1B493 /* Reverse Polish Calculator */,
+				1DF6546A1BEA5CBA00C1B493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DF6546A1BEA5CBA00C1B493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF654691BEA5CBA00C1B493 /* Reverse Polish Calculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DF6546B1BEA5CBA00C1B493 /* Reverse Polish Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				1DF6546C1BEA5CBA00C1B493 /* main.cpp */,
+				1DF654741BEA842800C1B493 /* Rational.cpp */,
+				1DF654731BEA83B300C1B493 /* Rational.h */,
+			);
+			path = "Reverse Polish Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF654681BEA5CBA00C1B493 /* Reverse Polish Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF654701BEA5CBA00C1B493 /* Build configuration list for PBXNativeTarget "Reverse Polish Calculator" */;
+			buildPhases = (
+				1DF654651BEA5CBA00C1B493 /* Sources */,
+				1DF654661BEA5CBA00C1B493 /* Frameworks */,
+				1DF654671BEA5CBA00C1B493 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reverse Polish Calculator";
+			productName = "Reverse Polish Calculator";
+			productReference = 1DF654691BEA5CBA00C1B493 /* Reverse Polish Calculator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF654611BEA5CBA00C1B493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Aaron Adams";
+				TargetAttributes = {
+					1DF654681BEA5CBA00C1B493 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 1DF654641BEA5CBA00C1B493 /* Build configuration list for PBXProject "Reverse Polish Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DF654601BEA5CBA00C1B493;
+			productRefGroup = 1DF6546A1BEA5CBA00C1B493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DF654681BEA5CBA00C1B493 /* Reverse Polish Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF654651BEA5CBA00C1B493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF6546D1BEA5CBA00C1B493 /* main.cpp in Sources */,
+				1DF654751BEA842800C1B493 /* Rational.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DF6546E1BEA5CBA00C1B493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DF6546F1BEA5CBA00C1B493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1DF654711BEA5CBA00C1B493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DF654721BEA5CBA00C1B493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF654641BEA5CBA00C1B493 /* Build configuration list for PBXProject "Reverse Polish Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF6546E1BEA5CBA00C1B493 /* Debug */,
+				1DF6546F1BEA5CBA00C1B493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF654701BEA5CBA00C1B493 /* Build configuration list for PBXNativeTarget "Reverse Polish Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF654711BEA5CBA00C1B493 /* Debug */,
+				1DF654721BEA5CBA00C1B493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DF654611BEA5CBA00C1B493 /* Project object */;
+}
